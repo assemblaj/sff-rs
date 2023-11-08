@@ -214,7 +214,7 @@ impl From<SFFSpriteV2> for SFFImage {
                 image: sprite.item_number,
             },
             axis_x: sprite.axis_x,
-            axis_y: sprite.axis_x,
+            axis_y: sprite.axis_y,
             width: sprite.width as u32,
             height: sprite.height as u32,
             image_data: sprite.image_data,
